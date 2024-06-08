@@ -2,7 +2,7 @@
   "name": "developer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MrMahmoodAlam.github.io/Portfolio",
+  "homepage": "https://MrMahmoodAlam.github.io/Portfolio-WebApp",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@splinetool/react-spline": "^2.2.6",
