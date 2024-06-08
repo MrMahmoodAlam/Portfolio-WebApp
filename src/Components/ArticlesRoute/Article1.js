@@ -3,6 +3,7 @@ import html_bg from "./html.jpg";
 
 export default function Article1() {
 
+
   return (
     <div className='text-center' id='article1-maindiv'>
 

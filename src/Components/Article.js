@@ -18,7 +18,7 @@ export default function Article() {
     })
   return (
     <>
-        <div className='flex flex-col md:flex-row justify-center gap-1 my-32' id='article-main-div'>
+        <div className='flex flex-col md:flex-row justify-center gap-1 my-10 md:my-32' id='article-main-div'>
             <div>
                 <div>
                     <p>Latest</p>

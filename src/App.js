@@ -9,13 +9,13 @@ import Article1 from './Components/ArticlesRoute/Article1';
 import Article2 from './Components/ArticlesRoute/Article2';
 import Article3 from './Components/ArticlesRoute/Article3';
 
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {HashRouter, Routes, Route} from "react-router-dom"
 
 
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
 
       <Routes>
         <Route path='/' element={<Landing/>}/>
@@ -42,7 +42,7 @@ function App() {
       </Routes>
 
 
-    </BrowserRouter>
+    </HashRouter>
       
     </>
   );
