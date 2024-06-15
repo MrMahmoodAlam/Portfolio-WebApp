@@ -37,6 +37,9 @@
         #landing-div2{
             width: 50%;
         }
+        #alert-text{
+            font-size: 0.8rem;
+        }
     }
    
     @media screen and (min-width:768px) {
@@ -359,15 +362,15 @@
     background-position: center right;
 
 }
-#resume-image{
-    width: 35vw;
-}
 #download_resume{
     border: 1px solid rgb(255, 255, 255);
     padding: 0.5rem 2rem;
     border-radius: 20px;
     color : white;
-    background-color: rgb(1, 103, 255);
+    background-color: black;
+}
+#resume-image{
+    width: 35vw;
 }
 @media screen and (max-width:768px) {
     #resume-image{

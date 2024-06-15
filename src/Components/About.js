@@ -22,11 +22,11 @@ export default function About() {
 
   useEffect(()=>{
 
-    gsap.fromTo('#about-text-div', {x : "30vw", duration : 1}, {x : "0px", duration : 1, scrollTrigger : {
+    gsap.fromTo('#about-text-div', {x : "30vw", duration : 2}, {x : "0px", duration : 2, scrollTrigger : {
       trigger : "#about-text-div",
     }})
   
-    gsap.fromTo('#about-image', {x : "-30vw", duration : 1}, {x : "0px", duration : 1, scrollTrigger : {
+    gsap.fromTo('#about-image', {x : "-30vw", duration : 2}, {x : "0px", duration : 2, scrollTrigger : {
       trigger : "#about-image",
     }})
 

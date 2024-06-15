@@ -14,11 +14,11 @@ export default function Data() {
     // GSAP
     useEffect(()=>{
 
-      gsap.fromTo('#data-image-div', {x : "-30vw", duration : 1}, {x : "0px", duration : 1, scrollTrigger : {
+      gsap.fromTo('#data-image-div', {x : "-30vw", duration : 2}, {x : "0px", duration : 2, scrollTrigger : {
         trigger : "#data-image-div",
       }})
     
-      gsap.fromTo('#data-right-div', {x : "30vw", duration : 1}, {x : "0px", duration : 1, scrollTrigger : {
+      gsap.fromTo('#data-right-div', {x : "30vw", duration : 2}, {x : "0px", duration : 2, scrollTrigger : {
         trigger : "#data-right-div",
       }})
 

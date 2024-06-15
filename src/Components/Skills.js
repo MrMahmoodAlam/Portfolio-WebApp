@@ -107,19 +107,19 @@ export default function Skills() {
           <div>
             <img src={frontend} alt='...' />
             <h3 className='text-2xl font-semibold mt-8'>Frontend Developement</h3>
-            <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quasi libero!.</p>
+            <p className='mt-2'>Creating dynamic, user-friendly web interfaces with passion and precision.</p>
           </div>
 
           <div>
             <img src={backend} alt='...' />
             <h3 className='text-2xl font-semibold mt-8'>Backend Developement</h3>
-            <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quasi libero!.</p>
+            <p className='mt-2'>Building robust, scalable backend systems to power seamless user experiences.</p>
           </div>
 
           <div>
             <img src={database} alt='...' />
             <h3 className='text-2xl font-semibold mt-8'>Database Developement</h3>
-            <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quasi libero!.</p>
+            <p className='mt-2'>Designing efficient, reliable databases to ensure optimal data management and performance.</p>
           </div>
 
         </div>
@@ -128,13 +128,13 @@ export default function Skills() {
           <div>
             <img src={web} alt='...' />
             <h3 className='text-2xl font-semibold mt-8'>Web Developement</h3>
-            <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quasi libero!.</p>
+            <p className='mt-2'>Crafting responsive, engaging websites with modern technologies and innovative solutions.</p>
           </div>
 
           <div>
             <img src={designer} alt='...' />
             <h3 className='text-2xl font-semibold mt-8'>UI/UX Designer</h3>
-            <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quasi libero!.</p>
+            <p className='mt-2'>Transforming ideas into engaging, user-friendly interfaces through innovative design solutions.</p>
           </div>
         </div>
 
@@ -152,14 +152,14 @@ export default function Skills() {
         <div className='flex flex-col md:flex-row justify-center gap-4'>
           <div id='soft-skill1'>
             <img src={creative} alt='...' />
-            <h3 className='text-2xl font-semibold mt-8'>UI/UX Designer</h3>
-            <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quasi libero!.</p>
+            <h3 className='text-2xl font-semibold mt-8'>Creative</h3>
+            <p className='mt-2'>Innovative thinker turning ideas into impactful, imaginative digital experiences.</p>
           </div>
 
           <div id='soft-skill2'>
             <img src={solving} alt='...' />
-            <h3 className='text-2xl font-semibold mt-8'>UI/UX Designer</h3>
-            <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quasi libero!.</p>
+            <h3 className='text-2xl font-semibold mt-8'>Problem Solving</h3>
+            <p className='mt-2'>Turning challenges into opportunities with creative, effective problem-solving strategies.</p>
           </div>
 
         </div>
@@ -167,14 +167,14 @@ export default function Skills() {
         <div className='flex flex-col md:flex-row justify-center gap-4 mt-4'>
           <div id='soft-skill3'>
             <img src={communication} alt='...' />
-            <h3 className='text-2xl font-semibold mt-8'>UI/UX Designer</h3>
-            <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quasi libero!.</p>
+            <h3 className='text-2xl font-semibold mt-8'>Communication</h3>
+            <p className='mt-2'>Clear, effective communicator fostering collaboration and understanding in every project.</p>
           </div>
 
           <div id='soft-skill4'>
             <img src={abilities} alt='...' />
-            <h3 className='text-2xl font-semibold mt-8'>UI/UX Designer</h3>
-            <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quasi libero!.</p>
+            <h3 className='text-2xl font-semibold mt-8'>Team Work</h3>
+            <p className='mt-2'>Collaborative team player driving success through teamwork and shared goals.</p>
           </div>
         </div>
 
