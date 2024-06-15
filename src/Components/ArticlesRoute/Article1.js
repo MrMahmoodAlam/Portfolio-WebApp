@@ -1,8 +1,11 @@
 import React from 'react';
 import html_bg from "./html.jpg";
 
+import useScrollToTop from '../HighOrder/ScrollTo';
+
 export default function Article1() {
 
+  useScrollToTop();
 
   return (
     <div className='text-center' id='article1-maindiv'>

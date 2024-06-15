@@ -80,7 +80,7 @@ export default function Landing() {
 
         {/* Mobile Alert Msg */}
         <div className='bg-yellow-500 text-white fixed bottom-0 left-0 px-5 py-2 z-10 overflow-hidden' style={inline}>
-          <p className='inline-block'>Please view on Desktop mode for best experience</p>
+          <p className='inline-block' id='alert-text'>Please view on Desktop mode for best experience</p>
           <img src='https://img.icons8.com/?size=100&id=rmf1Fvj5nBib&format=png&color=000000' alt='...' className='w-5 inline-block mx-2 cursor-pointer' onClick={close_alert} />
         </div>
 

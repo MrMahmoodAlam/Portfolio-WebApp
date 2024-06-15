@@ -1,13 +1,14 @@
 import React from 'react';
-import cv_pdf from "../images/Resume.pdf"
-import resume_cv from "../images/resume_cv.jpg"
+import cv_image from "../images/Mahmood_Resume.jpg"
+import cv_pdf from "../images/Mahmood_Resume.pdf";
+
 
 export default function Resume() {
   return (
-    <div id='resume-main-div' className='flex flex-col md:flex-row md:justify-around gap-30'>
+    <div id='resume-main-div' className='flex flex-col md:flex-row md:justify-around gap-10'>
 
       <div>
-        <img src={resume_cv} alt='...' id='resume-image'/>
+        <img src={cv_image} alt='...' id='resume-image'/>
       </div>
 
       <div> 

@@ -1,8 +1,11 @@
 import React from 'react';
-import html_bg from "./html.jpg"
-
+import css_bg from "./css.jpeg";
+import useScrollToTop from '../HighOrder/ScrollTo';
 
 export default function Article2() {
+
+  useScrollToTop();
+  
   return (
     <div className='text-center' id='article1-maindiv'>
 
@@ -11,7 +14,7 @@ export default function Article2() {
 
       <div className='flex flex-col md:flex-row justify-center gap-2 my-10'>
         <div>
-          <img src={html_bg}   id='html-article-image' alt='..'/>
+          <img src={css_bg}   id='html-article-image' alt='..'/>
         </div>
 
         <div className='text-left mx-5 md:ml-3' id='html-right-div'>
