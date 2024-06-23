@@ -31,7 +31,7 @@ export default function Project() {
 
             {/* PROJECT 2 */}
             <div>
-                <div id="project1-image-div" className='cursor-pointer' onClick={ ()=> window.open("https://mrmahmoodalam.github.io/Rockstar_Game/")}>
+                <div id="project2-image-div" className='cursor-pointer' onClick={ ()=> window.open("https://mrmahmoodalam.github.io/Rockstar_Game/")}>
                     <img  src={gta_image} alt='...' />
                 </div>
                 <div>

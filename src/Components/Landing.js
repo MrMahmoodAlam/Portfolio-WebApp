@@ -20,8 +20,17 @@ import { gsap } from "gsap";
 export default function Landing() {
 
   let [inline, SetNone] = useState({ display: "inline-block" });
-  function close_alert() {
+
+  useEffect(() => {
+    if (window.localStorage.getItem('alertId') === "1") {
+      SetNone({ display: "none" });
+    }
+  }, []);
+  
+  function close_alert() {               
     SetNone({ display: "none" });
+    window.localStorage.setItem("alertId", "1");
+    console.log(window.localStorage.getItem('alertId')); 
   }
 
   useEffect(() => {
@@ -71,10 +80,10 @@ export default function Landing() {
 
           <div id='landing-div3'>
             <p className='text-xl'>Hello I'm</p>
-            <h3 className='text-6xl font-bold'>Mahmood</h3>
-            <h3 className='text-6xl font-bold'>Alam</h3>
+            <h3 className='text-3xl md:text-6xl font-bold'>Mahmood</h3>
+            <h3 className='text-3xl md:text-6xl font-bold'>Alam</h3>
 
-            <p className='text-xl'>Welcome to my portfolio! I'm a full stack developer passionate about crafting efficient, user-friendly web applications. Explore my projects and skills here.</p>
+            <p className='md:text-xl'>Welcome to my portfolio! I'm a full stack developer passionate about crafting efficient, user-friendly web applications. Explore my projects and skills here.</p>
           </div>
         </div>
 
