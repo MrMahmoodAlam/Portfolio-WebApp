@@ -1,6 +1,7 @@
 import React from 'react';
 import database_image from "../images/database_image.jpg";
 import gta_image from "../images/gta5.jpg"
+import filesystem from "../images/filesystem.jpg"
 
  
 export default function Project() {
@@ -41,6 +42,24 @@ export default function Project() {
                         <div><p>CSS</p></div>
                         <div><p>Javascript</p></div>
                         <div><p>Tailwind CSS</p></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            {/* PROJECT 3 */}
+            <div>
+                <div id="project3-image-div" className='cursor-pointer' onClick={ ()=> window.open("https://github.com/MrMahmoodAlam/File-FolderSystem")}>
+                    <img  src={filesystem} alt='...' />
+                </div>
+                <div>
+                    <h4 className='text-2xl font-semibold my-2 cursor-pointer' onClick={()=> window.open("https://github.com/MrMahmoodAlam/File-FolderSystem")}>File and Folder System</h4>
+                    <div className='flex felex-row gap-1 flex-wrap justify-start mt-3' id='project-used-div'>
+                        <div><p>Python</p></div>
+                        <div><p>OS Module</p></div>
                     </div>
                 </div>
             </div>
